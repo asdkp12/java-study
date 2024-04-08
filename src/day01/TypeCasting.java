@@ -39,5 +39,11 @@ public class TypeCasting {
         double f2 = 5.5;
         double v1 = f1 - f2;
 
+        int x = 10, y = 20;
+
+        System.out.println(x > 10 && (y / 0 == 10)); //false
+        System.out.println(x > 10 || y < 30); //true
+        //알트엔터 <- 자동완성시키는듯? 무슨 마법의 단축키네
+
     }
 }
