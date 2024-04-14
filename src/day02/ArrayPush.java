@@ -19,6 +19,8 @@ public class ArrayPush {
         }
 //        3. 새 배열의 끝 인덱스에 넣을 데이터 추가하기
         temp[temp.length - 1] = newNumbers;
+        System.out.println("temp.length = " + temp.length);
+
 
 //        4. numbers 에 저장된 주소값을 temp 의 주소값으로 변경
         numbers = temp;

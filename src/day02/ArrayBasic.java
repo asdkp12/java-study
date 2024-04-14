@@ -56,6 +56,7 @@ public class ArrayBasic {
 //        new Type[] 생략가능
         String[] pets = {"멍멍이", "짹짹이", "콩수니"};
         pets = new String[] {"zzz" , "fff"};
+        System.out.println(Arrays.toString(pets));
 
 //        배열을 생성만하고 값을 안 넣으면?
 //        -> 각 타입의 기본값으로 미리 값을 넣어놓음

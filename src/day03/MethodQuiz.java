@@ -67,7 +67,7 @@ public class MethodQuiz {
 
         }
     }
-
+//=======================================MAIN=========================================
     public static void main(String[] args) {
 
 
